@@ -1,0 +1,156 @@
+body{
+	background-color:#f4f4f4;
+}
+
+.main-form{
+	padding:100px;
+	width:50%;
+	margin:auto;
+}
+
+.main-form .form-group{
+	padding-bottom:30px;
+}
+
+.main-form label{
+	display:block;
+}
+
+.main-form input[type="text"]{
+	padding:8px;
+	width:100%
+}
+
+.main-form select{
+	padding:8px;
+	width:50%;
+}
+
+.main-form input[type="date"]
+	{
+	padding:8px;
+	width:50%;
+}
+
+.main-form input[type="submit"]{
+	background-color:#333;
+	color:#fff;
+	padding:10px 15px;
+	border:none;
+	width:20%;
+}
+
+.main-form input[type="submit"]:hover{
+	background-color:red;
+	
+}
+
+.main-form{
+	border:1px dotted #ccc;
+}
+
+.logo{
+	
+	width:10%;
+	margin:auto;
+}
+
+.form-header {
+	color:blue;
+	padding:1px;
+	margin-top:-30px;
+	margin-bottom:20px;
+	
+}
+
+.Table
+    {
+        display: table;
+	padding: 20px;
+	width: 70%;
+	margin: auto;
+    }
+    .Title
+    {
+        display: table-caption;
+        text-align: center;
+        font-weight: bold;
+        font-size: larger;
+	color:blue;
+    }
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+    .Row
+    {
+        display: table-row;
+    }
+    .Cell
+    {
+        display: table-cell;
+        border: dotted;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+table.blueTable {
+  border: 1px solid #1C6EA4;
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.blueTable thead {
+  background: #1C6EA4;
+  background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
